@@ -45,13 +45,14 @@ p {
     color: #1e1e1e;
     padding-left: 151px;
     padding-right: 151px;
+    min-height: calc(100vh - 76px - 83px - 25px);
     padding-top: 25px;
 }
 
 .search {
     margin-right: 85px;
 }
-
+    
 .form {
     display: flex;
     flex-direction: column;
@@ -94,6 +95,7 @@ p {
     width: 100%;
     color: #1e1e1e;
     box-sizing: border-box;
+    background-color: #FFF;
 }
 
 .form__input-input option {
